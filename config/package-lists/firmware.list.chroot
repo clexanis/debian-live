@@ -1,0 +1,5 @@
+intel-microcode
+amd64-microcode
+firmware-linux-nonfree
+nvidia-driver
+broadcom-sta-dkms
