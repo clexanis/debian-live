@@ -1,0 +1,5 @@
+cache/
+config/hooks/
+chroot/
+.build/
+config/package-lists/live.list.chroot
