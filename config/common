@@ -86,11 +86,11 @@ LB_UTC_TIME="false"
 
 # Enable debug
 # If set here, overrides the command line option
-#_DEBUG="true"
+#_DEBUG="false"
 
 # Enable color
 # If set here, overrides the command line option
-#_COLOR="true"
+#_COLOR="auto"
 
 # Enable force
 # If set here, overrides the command line option
@@ -102,4 +102,4 @@ LB_UTC_TIME="false"
 
 # Enable verbose
 # If set here, overrides the command line option
-#_VERBOSE="true"
+#_VERBOSE="false"
