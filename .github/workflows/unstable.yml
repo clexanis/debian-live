@@ -41,7 +41,7 @@ jobs:
 
   release:
     needs: build
-    run-on: ubuntu-lastest
+    runs-on: ubuntu-lastest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
