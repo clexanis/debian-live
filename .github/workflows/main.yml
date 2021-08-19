@@ -22,11 +22,11 @@ jobs:
         run: sudo apt-get install git build-essential -y
       - name: Install live-build
         run: |
-          sudo mkdir -p /usr/srv
-          cd /usr/srv
           git clone https://salsa.debian.org/live-team/live-build.git
           cd live-build
           sudo make install
+          cd ..
+          rm -rf live-build
       - name: Build the image
         run: |
           sudo ld config
