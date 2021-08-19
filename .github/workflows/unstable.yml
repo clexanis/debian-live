@@ -20,11 +20,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it.
       - uses: actions/checkout@v2
-      - name: Cache packages
-        id: packages-cache
-        uses: actions/cache@v2
-        with:
-          path: cache/
       - name: Install dependencies
         run: sudo apt-get install git build-essential -y
       - name: Install live-build
