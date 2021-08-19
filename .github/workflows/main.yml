@@ -34,8 +34,8 @@ jobs:
           sudo ld build
 
   release:
-    need: build
-    run-on: ubuntu-lastest
+    needs: build
+    runs-on: ubuntu-lastest
     steps:
     - name: Checkout code
       uses: actions/checkout@v2

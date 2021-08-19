@@ -33,7 +33,7 @@ jobs:
           sudo ld build
 
   release:
-    need: build
+    needs: build
     run-on: ubuntu-lastest
     steps:
     - name: Checkout code
