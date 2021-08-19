@@ -29,8 +29,8 @@ jobs:
           rm -rf live-build
       - name: Build the image
         run: |
-          sudo ld config
-          sudo ld build
+          sudo lb config
+          sudo lb build
 
   release:
     needs: build
