@@ -26,8 +26,9 @@ jobs:
         run: |
           git clone https://salsa.debian.org/live-team/live-build.git
           cd live-build
-          sudo make install
+          sudo dpkg-buildpackage -b -uc -us
           cd ..
+          sudo apt-get install ./live-build*
           rm -rf live-build
       - name: Build the image
         run: |
