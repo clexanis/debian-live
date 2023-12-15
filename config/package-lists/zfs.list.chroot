@@ -1,0 +1,5 @@
+dpkg-dev
+linux-headers-generic
+linux-image-generic
+zfs-dkms
+zfsutils-linux
